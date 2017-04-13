@@ -1,0 +1,24 @@
+#redmine{
+	min-width: 140px;
+}
+
+#ticket{
+	width: 100px;
+}
+
+#ticketButton{
+	float: right;
+}
+
+#newSEButton{
+	float: right;	
+}
+
+#newEPButton{
+	float: left;
+}
+
+.newRM{
+	width: 67px;
+	margin-bottom: 5px;
+}
