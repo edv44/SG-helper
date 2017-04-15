@@ -1,24 +1,35 @@
-#redmine{
+body{
+	font-size: 11px;
+	font-family: Verdana;
+}
+div{
 	min-width: 140px;
+	margin-bottom: 5px;
+	min-height: 21px;
 }
 
-#ticket{
+#ticket, #search{
 	width: 100px;
 }
 
-#ticketButton{
+#ticketButton, #searchButton{
 	float: right;
 }
 
-#newSEButton{
+#newSEButton{	
+	width: 68px;
 	float: right;	
 }
 
-#newEPButton{
+#newEPButton{	
+	width: 68px;
 	float: left;
 }
 
-.newRM{
-	width: 67px;
-	margin-bottom: 5px;
+#downloadJnlp, #downloadSA{
+	width: 41px;
+	height: 19px;
+	text-align: left;
+	float: right;
+	margin-left: 4px;
 }

@@ -6,14 +6,27 @@
 		<script type="text/javascript" src="test.js"></script>		
 		<base target="_blank">
 	</head>
-	<body>
+	<body>		
 		<div id="newRM">
-			<input type="button" class="newRM" id="newEPButton" value="New EP"></input>
-			<input type="button" class="newRM" id="newSEButton" value="New SE"></input>
-		</div>
-		<div id="redmine">
-			<input type="text" id="ticket" placeholder="RM number.." autofocus>
-			<input type="button" id="ticketButton" value="go"></input>
+			<input type="button" id="newEPButton" value="New EP">
+			<input type="button" id="newSEButton" value="New SE">
+		</div>		
+		<div id="redmineOpen">
+			<input type="text" id="ticket" placeholder="SE RM number.." autofocus>
+			<input type="button" id="ticketButton" value="go">
+		</div>		
+		<div id="redmineSearch">
+			<input type="text" id="search" placeholder="SE RM subject..">
+			<input type="button" id="searchButton" value="go">
+		</div>		
+		<div id="downloads">
+			<select id="env">
+				<option>IAT</option>
+				<option>LDT</option>
+				<option>QA</option>
+			</select>
+			<input type="button" id="downloadSA" value="SA">
+			<input type="button" id="downloadJnlp" value="jnlp">			
 		</div>
 	</body>
 </html>
